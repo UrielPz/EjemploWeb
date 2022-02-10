@@ -1,0 +1,16 @@
+.menuSesion {
+    color: white;
+    text-align: center;
+    width: 30%;
+    margin: auto;
+    border: 5px solid #47704b;
+}
+
+#footer {
+    position: absolute;
+    /* negative value of footer height */
+    height: 100px;
+    width: 100%;
+    top: 100%;
+    background-color: #47704b;
+}

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/estilo1.css">
+    <style>
+        .menuSesion {
+            color: white;
+            text-align: center;
+            width: 30%;
+            margin: auto;
+            border: 5px solid #47704b;
+            font-weight: bold;
+        }
+        
+        input {
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="wrap">
+        <div id="header"></div>
+
+        <div id="main">
+            <br>
+            <br>
+            <br>
+            <br>
+            <div class="menuSesion bg-dark">
+
+
+                <br>
+                <label class="login"><b>REGISTRO</b></label>
+                <hr style="background-color: white; margin-left: 15px;margin-right: 15px;">
+                <form id="registro">
+                    <div class="container formulario">
+                        <div style="text-align: left;">
+                            <label for="uname">Nombre de usuario</label>
+                        </div>
+                        <input type="text" name="uname" required>
+                        <br>
+                        <br>
+                        <div style="text-align: left;">
+                            <label for="uname">Correo</label>
+                        </div>
+                        <input type="text" name="correo" required>
+                        <br>
+                        <br>
+                        <div style="text-align: left;">
+                            <label for="uname">Contrasenña</label>
+                        </div>
+                        <input type="password" name="psw">
+                        <br>
+                        <br>
+                        <div style="text-align: left;">
+                            <label for="uname">Confirmar contraseña</label>
+                        </div>
+                        <input type="password" name="psw">
+                        <br>
+                        <br>
+                        <div style="display: flex; justify-content: space-evenly">
+                            <button type="submit" class="btn btn-success"><i class="fas fa-sign-in-alt"></i>&nbspRegistrarme</button>
+                            <button class="btn btn-danger"><i class="fas fa-ban"></i>&nbspCancelar</button>
+                        </div>
+                        <br>
+                        <br>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <div id="footer"></div>
+    </div>
+
+    <script src="js/lib/jquery-3.6.0.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/0af9583a5b.js" crossorigin="anonymous"></script>
+
+    <script src="js/generados/headerFooter.js"></script>
+    <script src="js/generados/usuarios.js"></script>
+    <script src="js/generados/constantes.js"></script>
+</body>
+
+</html>
